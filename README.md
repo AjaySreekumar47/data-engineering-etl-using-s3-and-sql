@@ -17,6 +17,11 @@ This project demonstrates a basic data engineering pipeline using AWS S3, Snowfl
 - Visio for Data Modeling
 - (Optional) Python for automation
 
+## STAR Schema
+Here is the STAR schema used in this project:
+
+![STAR Schema](draw.io/star_schema_data_model.png)
+
 ### **Steps to Run**
 1. **Upload Data to S3**: Manually upload CSV files or use `extract_data.py`.
 2. **Load Data into Snowflake**:
